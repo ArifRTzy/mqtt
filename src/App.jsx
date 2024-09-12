@@ -12,7 +12,7 @@ function App() {
       setConnected(true);
       console.log("successfully");
 
-      client.subscribe("arppp9090", (err) => {
+      client.subscribe("myTopic", (err) => {
         if (!err) {
           console.log("subscribed");
         }
